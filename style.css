@@ -1,0 +1,38 @@
+body {
+    background-color: blueviolet;
+    
+}
+#main {
+    border-radius: 15px;
+    background-color: rgb(109, 0, 211);
+    width: 400px;
+    height: 500px;
+    margin: auto ;
+    margin-top: 4%;
+    text-align: center;
+    color: cornsilk;
+    font-size: 50px;
+    position: relative;
+}
+#yard{
+    border-radius: 15px;
+    background-color: rgb(181, 106, 252);
+    width: 400px;
+    height: 400px;
+    margin-top: -50px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.square{
+    border-radius: 15px;
+    background-color: rgb(109, 0, 211);
+    width: 105px;
+    height: 105px;
+    margin: 12px;
+    box-shadow: rgb(116, 116, 116);
+    text-align: center;
+    color: cornsilk;
+    font-size: 80px;
+  
+}
